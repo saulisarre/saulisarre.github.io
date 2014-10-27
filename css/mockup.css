@@ -71,8 +71,8 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #41dd85 !important;
-    border-bottom: 1px dotted #41dd85;
+    color: #9CA1FC !important;
+    border-bottom: 1px dotted #9CA1FC;
 }
 
 .light {
@@ -126,20 +126,20 @@ a:focus {
     outline: 0;
     background: none;
     color: #fff !important;
-    border-bottom: 2px solid #41dd85;
+    border-bottom: 2px solid #9CA1FC;
 }
 
 .top-nav-collapse .nav li a:hover{
     outline: 0;
     background: none;
-    color: #41dd85 !important;
+    color: #9CA1FC !important;
     border-bottom: none !important;
 }
 
 .navbar-custom .nav li.active a {
     outline: 0;
     background: none;
-    color: #41dd85 !important;
+    color: #9CA1FC !important;
     border-bottom: none !important;
 }
 
@@ -167,7 +167,7 @@ a:focus {
         border-bottom: none !important;
     }
     .navbar-custom .nav li a:hover {
-        color: #41dd85 !important;
+        color: #9CA1FC !important;
     }
     .brand-heading {
         font-size: 36px !important;
@@ -417,7 +417,7 @@ a:focus {
 }
 
 .about-section a:hover {
-    color: #41dd85;
+    color:#9CA1FC;
 }
 
 .skill {
@@ -786,7 +786,7 @@ a:focus {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    color: #9CA1FC;;
+    color: #9CA1FC;
     background: none;
     border: 2px solid #9CA1FC;;
     font-family: 'Montserrat', sans-serif;
@@ -804,8 +804,8 @@ a:focus {
 
 .button:hover {
     color: #fff !important;
-    border: 2px solid #41dd85;
-    background: #41dd85;
+    border: 2px solid #9CA1FC;
+    background: #9CA1FC;
 }
 
 .button-full-small {
