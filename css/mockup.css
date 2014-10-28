@@ -71,8 +71,8 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #9CA1FC !important;
-    border-bottom: 1px dotted #9CA1FC;
+    color: #524A35 !important;
+    border-bottom: 1px dotted #524A35;
 }
 
 .light {
@@ -126,20 +126,20 @@ a:focus {
     outline: 0;
     background: none;
     color: #fff !important;
-    border-bottom: 2px solid #9CA1FC;
+    border-bottom: 2px solid #524A35;
 }
 
 .top-nav-collapse .nav li a:hover{
     outline: 0;
     background: none;
-    color: #9CA1FC !important;
+    color: #524A35 !important;
     border-bottom: none !important;
 }
 
 .navbar-custom .nav li.active a {
     outline: 0;
     background: none;
-    color: #9CA1FC !important;
+    color: #524A35 !important;
     border-bottom: none !important;
 }
 
@@ -167,7 +167,7 @@ a:focus {
         border-bottom: none !important;
     }
     .navbar-custom .nav li a:hover {
-        color: #9CA1FC !important;
+        color: #524A35 !important;
     }
     .brand-heading {
         font-size: 36px !important;
@@ -256,7 +256,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: rgba(255,255,255,0.7);
+    color: rgba(0,0,0,0.9);
     background: url(../img/IMG_20120702_021836.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -688,9 +688,11 @@ a:focus {
     padding-right: 20px;
 }
 
-.contact-right {
-    border-left: 1px solid #DEF1E5;
-    padding-left: 120px;
+@media(min-width:992px) {
+    .contact-right {
+        border-left: 1px solid #DEF1E5;
+        padding-left: 120px;
+    }
 }
 
 .pstatus {
@@ -786,9 +788,9 @@ a:focus {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    color: #9CA1FC;
+    color: #524A35;
     background: none;
-    border: 2px solid #9CA1FC;;
+    border: 2px solid #524A35;
     font-family: 'Montserrat', sans-serif;
     display: block;
     position: relative;
@@ -804,8 +806,8 @@ a:focus {
 
 .button:hover {
     color: #fff !important;
-    border: 2px solid #9CA1FC;
-    background: #9CA1FC;
+    border: 2px solid #524A35;
+    background: #524A35;
 }
 
 .button-full-small {
@@ -889,3 +891,9 @@ a:focus {
 ::-moz-selection{background:rgba(0,0,0,0.1);}
 img::selection{background:transparent;}
 img::-moz-selection{background:transparent;}
+
+
+
+.external:after {
+
+}
