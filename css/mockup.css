@@ -102,12 +102,12 @@ a:focus {
 
 .navbar-brand:focus {
     outline: 0;
-    background-color: none;
+    background-color: unset;
 }
 
 .navbar-brand:hover {
     outline: 0;
-    background-color: none !important;
+    background-color: unset !important;
 }
 
 .navbar-custom a {
@@ -748,7 +748,7 @@ a:focus {
     color: rgba(255, 255,255, 0.8);
     font-size: 16px;
     line-height: 24px;
-    padding: none !important;
+    padding: unset !important;
     /*-webkit-font-smoothing:antialiased;*/
 }
 
