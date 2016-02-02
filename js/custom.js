@@ -16,6 +16,4 @@ $(function() {
         }, 1500, 'jswing');
         event.preventDefault();
     });
-})/**
- * Created by sauli on 27.10.2014.
- */
+})
